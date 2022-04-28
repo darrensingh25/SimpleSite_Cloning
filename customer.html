@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimpleSite </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <div class="grand-parent">
+        <div class="navbar" id="navbar">
+            <nav>
+                <ul>
+                    <img src="Simplesite_logo.png" class="simplesitelogo" alt="SimpleSite logo">
+                    <li class="items"><a href="#">Try it for free</a></li>
+                    <li class="items"><a href="customer.html">Customer Service</a></li>
+                    <li class="items"><a href="features.html">Features</a></li>
+                    <li class="items"><a href="themes.html">Themes</a></li>
+                </ul>
+            </nav>
+            <div class="butt-lang">
+                <div class="butt">
+                    <button class="login-button">LOG IN</button>
+                </div>
+                <div class="language">
+                    <div class="logo-nav">
+                        <img src="footer-icon/globe.png" alt="">
+                    </div>
+                    <div class="languages">
+                        <select name="languages" id="language">
+                            <option value="English">English</option>
+                            <option value="Español">Español</option>
+                            <option value="Français">Français</option>
+                            <option value="Dansk">Dansk</option>
+                            <option value="Norsk Bokmål">Norsk Bokmål</option>
+                            <option value="Svenska">Svenska</option>
+                            <option value="Nederlands">Nederlands</option>
+                            <option value="UrItalianodu">Italiano</option>
+                            <option value="Suomi">Suomi</option>
+                            <option value="Deutsch">Deutsch</option>
+                            <option value="Русский">Русский</option>
+                            <option value="Indonesia">Indonesia</option>
+                            <option value="Türkçe">Türkçe</option>
+                            <option value="Polski">Polski</option>
+                            <option value="Čeština">Čeština</option>
+                            <option value="Bahasa Melayu">Bahasa Melayu</option>
+                            <option value="Ελληνικά">Ελληνικά</option>
+                            <option value="Português">Português</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="parent1 customer-page">
+            <div class="parent1-content">
+                <h1>
+                    <span class="heading1 backdrop">Customer</span>
+                    <span class="heading1 backdrop robo">Services</span>
+                </h1>
+            </div>
+        </div>
+        <div class="themes-content">
+            <div class="themes-heading-inside ">
+                <h2 class="heading1 backdrop themes-heading-second">FAQ</h2>
+            </div>
+            <div class="line customer-line">
+            </div>
+        </div>
+        <div class="butt-faq">
+            <div class="faq-buttons">
+                <div class="faq-payment-button">
+                    <input type="button" class="faq-payment-button1 faq-button-active"
+                        value="Simple subscription and Payment" id="abc1" onclick="onactive('abc1','container1')">
+                </div>
+                <div class="faq-payment-button">
+                    <input type="button" class="faq-payment-button1 " value="General use of SimpleSite" id="abc2"
+                        onclick="onactive('abc2','container2')">
+                </div>
+            </div>
+
+            <div class="faq">
+                <div class="faq-section" id="container1">
+                    <div class="faq-section-box" onclick="question('question-one')">
+                        <p class="faq-question">How much does a SimpleSite subscripton cost and what features are
+                            included?
+                        </p>
+                        <div class="faq-answer" id="question-one">
+                            <p class="faq-answer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+                                deserunt placeat perferendis dolore rerum deleniti provident accusamus quod sapiente
+                                sunt
+                                dolores rem quasi dicta, iste consequuntur doloremque tenetur possimus molestiae.l̥</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-section-box" onclick="question('question-two')">
+                        <p class="faq-question jjj">How can I get my own domain name?</p>
+                        <div class="faq-answer" id="question-two">
+                            <p class="faq-answer-text">At SimpleSite it's easy to get your own domain name
+                                for your website.
+                                When you purchase a subscription you can choose your own domain name, e.g.,
+                                www.yourname.com
+                                instead
+                                of
+                                yourname.SimpleSite.com. In addition, you can register up to five custom email
+                                addresses,
+                                for
+                                example info@yourname.com.
+                                To upgrade and get your own domain name please click on the link below.</p>
+                            <p class="faq-answer-text"> <a href="https://www.simplesite.com/pages/service-login.aspx"
+                                    class="answer-link"> Get own domain</a> </p>
+                        </div>
+                    </div>
+                    <div class="faq-section-box" onclick="question('question-three')">
+                        <p class="faq-question">I have received a SimpleSite gift certificate.How do I reedem it?</p>
+                        <div class="faq-answer" id="question-three">
+                            <p class="faq-answer-text">If you have received a SimpleSite gift
+                                certificate and want to use it to
+                                make a SimpleSite PRO website, click this link to follow the instructions:</p>
+                            <p class="faq-answer-text"> <a href="https://www.simplesite.com/pages/service-login.aspx"
+                                    class="answer-link"> Click here to reedem your SimpleSite gift certificate</a> </p>
+                        </div>
+                    </div>
+                    <div class="faq-section-box" onclick="question('question-four')">
+                        <p class="faq-question">Can I renew a current subscription with a gift certificate?</p>
+                        <div class="faq-answer" id="question-four">
+                            <p class="faq-answer-text">Yes, but only if the SimpleSite gift certificate
+                                you received has that option listed. If it does, you can <a
+                                    href="https://www.simplesite.com/pages/service-login.aspx?loginintobskey=usergiftrenew"
+                                    class="answer-link">redeem it here </a></p>
+                        </div>
+                    </div>
+                    <div class="faq-section-box" onclick="question('question-five')">
+                        <p class="faq-question">How can I pay for or renew my subscripton?</p>
+                        <div class="faq-answer" id="question-five">
+
+                            <p class="faq-answer-text"><a
+                                    href="https://www.simplesite.com/pages/service-login.aspx?ReturnUrl=%2fbuilder%2fpages%2fsubsinfo.aspx%3floginintobskey%3dsubsinfo&loginintobskey=subsinfo"
+                                    class="answer-link">
+                                    Click here to go to the SimpleSite subscription renewal page. </a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-section" id="container2">
+                    <div class="faq-section-box" onclick="question('question-one-second')">
+                        <p class="faq-question">I forgot my password. What should I do?
+                        </p>
+                        <div class="faq-answer" id="question-one-second">
+                            <p class="faq-answer-text">To reset your password visit our login page, click on "Have you
+                                forgotten your password?", and enter the required information. Then, we will send a
+                                password
+                                reset link to your registered email address. Please remember to check your
+                                spam/promotions
+                                folders in case our email ends there.</p>
+                            <p class="faq-answer-text"> If you do not receive the password reset link, or still have
+                                problems logging in to your website's editor, please contact our customer service team
+                                at
+                                customerservice@simplesite.com, and provide your website's address. We kindly ask you to
+                                contact us from the email address used to register your website. </p>
+                        </div>
+                    </div>
+
+                    <div class="faq-section-box" onclick="question('question-two-second')">
+                        <p class="faq-question">Can I change the name of my SimpleSite website?
+                        </p>
+                        <div class="faq-answer" id="question-two-second">
+                            <p class="faq-answer-text">If you have a basic free subscription, your website's address is
+                                based on your username, and you can modify it via the "Account" section of your
+                                website's
+                                editor by changing your "website name". Keep in mind that this will change your username
+                                as
+                                well.</p>
+                            <p class="faq-answer-text">
+                                If your website has a domain name, and you wish to change it, please contact our
+                                customer
+                                service team at customerservice@simplesite.com, and provide your website's address. We
+                                kindly ask you to contact us from the email address used to register your website.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq-section-box" onclick="question('question-three-second')">
+                        <p class="faq-question">Can I change the size of my images?
+                        </p>
+                        <div class="faq-answer" id="question-three-second">
+                            <p class="faq-answer-text">No, the size of your images is automatically set by the webpage
+                                template you chose.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-section-box" onclick="question('question-four-second')">
+                        <p class="faq-question">Can I use my SimpleSite website for commercial purposes?
+                        </p>
+                        <div class="faq-answer" id="question-four-second">
+                            <p class="faq-answer-text">You can use your SimpleSite for commercial purposes, as long as
+                                the
+                                content of your pages complies with our general Terms & Conditions. You can make use of
+                                our
+                                E-commerce subscription to sell products and services on your website. Please note we do
+                                not
+                                permit website owners to resell their website or domain names to others.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-section-box" onclick="question('question-five-second')">
+                        <p class="faq-question">Can anyone see my SimpleSite?
+                        </p>
+                        <div class="faq-answer" id="question-five-second">
+                            <p class="faq-answer-text">Yes. Please note there is NO password protection option for your
+                                website. This means that everyone who knows the URL of your website can visit it. We
+                                recommend you always consider carefully what you publish on your website. Avoid
+                                publishing
+                                anything online that is confidential, offensive or unsuitable for public viewing. Search
+                                engines such as Google and Bing will also be able to index your website.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="customer-services-content">
+            <div class="themes-heading-inside ">
+                <h2 class="heading1 backdrop themes-heading-second">CUSTOMER SERVICE</h2>
+            </div>
+            <div class="line customer-line customer-emails-bottom ">
+            </div>
+            <div class="themes-emails">
+                <p class="customer-section-email customer-emails-bottom "> Email : <a
+                        href="https://www.simplesite.com/pages/service-login.aspx" class="customer-link">
+                        customerservice@simplesite.com
+                    </a></p>
+            </div>
+            <p class="customer-section-email ">We try to respond to all requests within two business days. </p>
+            <p class="customer-section-email customer-emails-bottom ">Please describe your issue and include the name of
+                your website to make
+                it easier for us to help you.</p>
+            <div class="customer-section-outside-emails">
+                <p class="customer-section-email emails-robo ">
+                    SimpleSite.com
+                </p>
+                <p class="customer-section-email ">
+                    Toldbodgade 31, 3.tv
+                </p>
+                <p class="customer-section-email ">
+                    1253 Copenhagen K.
+                </p>
+                <p class="customer-section-email ">
+                    Denmark
+                </p>
+                <p class="customer-section-email ">
+                    VAT Reg No: DK27 97 24 54
+                </p>
+                <p class="customer-section-email ">
+                    VAT Reg No: DK27 97 24 54
+                </p>
+                <p class="customer-section-email ">
+                    Owned by SimpleSite ApS VAT Reg No DK10079861
+                </p>
+            </div>
+
+
+
+
+
+            </div>
+
+
+
+            <div class="parent6">
+                <div class="parent6-content">
+                    <div class="footer6">
+                        <div class="heading-line simplesite">
+                            <h2>SIMPLESITE</h2>
+                            <div class="line line6">
+                            </div>
+                            <div class="simplesite-content">
+                                <p class="footer-content-6">
+                                    Our user experience ideals run through
+                                    every vein of our company. Our ideals are
+                                    not to attain perfection, but rather to attain
+                                    pleasure. Using our product should feel
+                                    enjoyable - like playing a game - it should
+                                    be easy, exciting and uplifting. Something
+                                    to try and subsequently to learn from. This
+                                    is the same experience our employees
+                                    have working for us.
+                                </p>
+                            </div>
+                            <div class="socialicons">
+                                <div class="socialicon">
+                                    <a href="https://www.facebook.com/appwrk/">
+                                        <img src="footer-icon/fb.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="socialicon">
+                                    <a href="https://www.youtube.com/channel/UCB89lOpi_SwDBuLQZdrTpLQ">
+                                        <img src="footer-icon/youtube.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="socialicon">
+                                    <a
+                                        href="https://twitter.com/appwrk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                                        <img src="footer-icon/twitter.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="socialicon">
+                                    <a href="https://in.linkedin.com/company/appwrk">
+                                        <img src="footer-icon/linkedin.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="heading-line product">
+                            <h2>PRODUCT</h2>
+                            <div class="line line6">
+                            </div>
+                            <div class="product-content">
+                                <p class="footer-content-6">Features</p>
+                                <p class="footer-content-6">Themes</p>
+                                <p class="footer-content-6">Gift Certificate</p>
+                                <p class="footer-content-6">Pricing</p>
+                            </div>
+                        </div>
+
+                        <div class="heading-line company">
+                            <h2>COMPANY</h2>
+                            <div class="line line6">
+                            </div>
+
+                            <div class="company-content">
+                                <p class="footer-content-6">Terms of use</p>
+                                <p class="footer-content-6">Privacy Policy</p>
+                                <p class="footer-content-6">Cookie Policy</p>
+                            </div>
+                        </div>
+
+                        <div class="heading-line community">
+                            <h2>COMMUNITY</h2>
+                            <div class="line line6">
+                            </div>
+                            <div class="community-content">
+                                <p class="footer-content-6">Customer Service</p>
+                                <p class="footer-content-6">FAQ</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+</body>
+
+</html>
